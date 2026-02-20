@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garage automobile à Muille-Villette | APH Atelier Mécanique</title>
+  <meta name="description" content="APH Atelier Mécanique, garage automobile à Muille-Villette (80400). Entretien, réparation, pneumatiques et pièces détachées toutes marques. Clients de Ham, Noyon, Nesle, Guiscard et alentours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["AutoRepair", "AutoPartsStore", "LocalBusiness"],
+        "@id": "https://www.aphmecanique80.fr/#business",
+        "name": "A.P.H Atelier Mécanique",
+        "url": "https://www.aphmecanique80.fr/",
+        "image": "https://www.aphmecanique80.fr/logo.png",
+        "logo": "https://www.aphmecanique80.fr/logo.png",
+        "telephone": "+33360503783",
+        "email": "aphpiecesham@gmail.com",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2 Rue de Paris",
+          "addressLocality": "Muille-Villette",
+          "postalCode": "80400",
+          "addressCountry": "FR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 49.7390717,
+          "longitude": 3.0683761
+        },
+        "hasMap": "https://www.google.com/maps/place/?q=place_id:ChIJObUkbPEP6EcRUd2V8nVVMRY",
+        "sameAs": [
+          "https://www.facebook.com/aphateliermecanique",
+          "https://www.instagram.com/aphateliermecanique"
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "09:30",
+            "closes": "12:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "13:30",
+            "closes": "18:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday"],
+            "opens": "09:00",
+            "closes": "13:00"
+          }
+        ],
+        "areaServed": [
+          {"@type":"Place","name":"Muille-Villette"},
+          {"@type":"Place","name":"Noyon"},
+          {"@type":"Place","name":"Ham"},
+          {"@type":"Place","name":"Roye"},
+          {"@type":"Place","name":"Péronne"},
+          {"@type":"Place","name":"Nesle"},
+          {"@type":"Place","name":"Saint-Quentin"},
+          {"@type":"Place","name":"Guiscard"}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== SECTION 1 : HEADER FIXE ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <img src="https://www.aphmecanique80.fr/logo.png" alt="APH Atelier Mécanique" width="50" height="50">
+        <span class="header__brand">APH <span class="header__brand-sub">Atelier Mécanique</span></span>
+      </a>
+
+      <nav class="header__nav" id="nav">
+        <a href="#accueil" class="header__link active">Accueil</a>
+        <a href="#services" class="header__link">Nos Services</a>
+        <a href="#reassurance" class="header__link">Pourquoi nous</a>
+        <a href="#contact" class="header__link">Contact</a>
+      </nav>
+
+      <a href="tel:+33360503783" class="btn btn--accent header__cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        03 60 50 37 83
+      </a>
+
+      <button class="header__burger" id="burger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== SECTION 2 : HERO BANNER ===== -->
+  <section class="hero" id="accueil">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">Votre Garage Automobile<br>de Confiance à <span class="text-accent">Muille-Villette</span></h1>
+      <p class="hero__subtitle">Entretien, réparation, pneumatiques et pièces détachées.<br>Une équipe d'experts pour prendre soin de votre véhicule, au juste prix.</p>
+      <div class="hero__cta">
+        <a href="mailto:aphpiecesham@gmail.com?subject=Demande%20de%20devis" class="btn btn--accent btn--lg">Demander un devis gratuit</a>
+        <a href="#services" class="btn btn--outline btn--lg">Voir nos prestations</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3 : NOS SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Notre Expertise Auto</h2>
+      <p class="section-subtitle">Des prestations complètes pour votre véhicule, toutes marques confondues.</p>
+      <div class="services__grid">
+        <div class="card" data-animate>
+          <div class="card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="card__title">Mécanique & Entretien</h3>
+          <p class="card__text">Révision, freinage, distribution, suspension, embrayage et diagnostic électronique toutes marques.</p>
+        </div>
+        <div class="card" data-animate>
+          <div class="card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3 class="card__title">Centre Pneumatique</h3>
+          <p class="card__text">Vente, montage et équilibrage de pneus toutes marques. Service rapide, tarifs clairs.</p>
+        </div>
+        <div class="card" data-animate>
+          <div class="card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="card__title">Pièces Détachées</h3>
+          <p class="card__text">Magasin de pièces auto et consommables pour professionnels et particuliers. Montage sur place.</p>
+        </div>
+      </div>
+      <div class="services__cta">
+        <a href="#contact" class="btn btn--primary">En savoir plus sur l'Atelier</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4 : RÉASSURANCE ===== -->
+  <section class="reassurance" id="reassurance">
+    <div class="container">
+      <h2 class="section-title section-title--light">Pourquoi choisir APH Atelier Mécanique ?</h2>
+      <p class="section-subtitle section-subtitle--light">Depuis notre atelier à Muille-Villette, nous accompagnons les automobilistes de Ham, Noyon, Nesle, Guiscard et alentours.</p>
+      <div class="reassurance__grid">
+        <div class="reassurance__item" data-animate>
+          <div class="reassurance__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3 class="reassurance__title">Transparence totale</h3>
+          <p class="reassurance__text">Des devis clairs et détaillés, pas de mauvaises surprises. Chaque intervention vous est expliquée.</p>
+        </div>
+        <div class="reassurance__item" data-animate>
+          <div class="reassurance__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="reassurance__title">Proximité & Conseil</h3>
+          <p class="reassurance__text">Un vrai suivi client et des conseils personnalisés. Nous privilégions la relation de confiance.</p>
+        </div>
+        <div class="reassurance__item" data-animate>
+          <div class="reassurance__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3 class="reassurance__title">Qualité Garantie</h3>
+          <p class="reassurance__text">Pièces de grandes marques (Valeo, Michelin, Bosch, TRW...) et travail soigné pour des réparations durables.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 5 : AVIS CLIENT ===== -->
+  <section class="testimonial">
+    <div class="container">
+      <div class="testimonial__card" data-animate>
+        <svg class="testimonial__quote" width="48" height="48" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <blockquote class="testimonial__text">
+          Le prix, la qualité et surtout le montage sur place, c'est ce qui fait la différence chez APH Atelier Mécanique !
+        </blockquote>
+        <p class="testimonial__author">— Un client satisfait de Guiscard</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 6 : CONTACT & LOCALISATION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Venir nous voir</h2>
+      <div class="contact__grid">
+        <div class="contact__info" data-animate>
+          <div class="contact__block">
+            <div class="contact__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Adresse</h3>
+              <p>2 Rue de Paris<br>80400 Muille-Villette</p>
+            </div>
+          </div>
+          <div class="contact__block">
+            <div class="contact__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Horaires d'ouverture</h3>
+              <p>
+                <strong>Lundi — Vendredi</strong><br>
+                9h30 – 12h00 / 13h30 – 18h30<br><br>
+                <strong>Samedi</strong><br>
+                9h00 – 13h00<br><br>
+                <strong>Dimanche</strong> — Fermé
+              </p>
+            </div>
+          </div>
+          <div class="contact__block">
+            <div class="contact__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h3>Téléphone</h3>
+              <p><a href="tel:+33360503783">03 60 50 37 83</a></p>
+            </div>
+          </div>
+          <a href="tel:+33360503783" class="btn btn--accent btn--lg contact__cta-btn">Prendre Rendez-vous</a>
+        </div>
+        <div class="contact__map" data-animate>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.5!2d3.0683761!3d49.7390717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e80ff16c24b539%3A0x163155727295dd51!2sAPH%20Atelier%20M%C3%A9canique!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
+            width="100%"
+            height="100%"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localisation APH Atelier Mécanique">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 7 : FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <a href="/" class="footer__logo">
+            <img src="https://www.aphmecanique80.fr/logo.png" alt="APH Atelier Mécanique" width="45" height="45">
+            <span>APH Atelier Mécanique</span>
+          </a>
+          <p class="footer__desc">Garage automobile et magasin de pièces détachées à Muille-Villette. Entretien, réparation et pneumatiques toutes marques depuis notre atelier.</p>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/aphateliermecanique" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/aphateliermecanique" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Nos Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Mentions légales</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Zones d'intervention</h4>
+          <ul>
+            <li>Muille-Villette</li>
+            <li>Ham</li>
+            <li>Noyon</li>
+            <li>Nesle</li>
+            <li>Guiscard</li>
+            <li>Roye</li>
+            <li>Péronne</li>
+            <li>Saint-Quentin</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 APH Atelier Mécanique — Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
